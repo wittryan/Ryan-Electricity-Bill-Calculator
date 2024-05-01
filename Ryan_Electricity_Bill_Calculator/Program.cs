@@ -43,6 +43,10 @@ namespace Ryan_Electricity_Bill_Calculator
             }
 
             Console.WriteLine("Net Amount Paid By the Customer: NZ$" + totalAmount.ToString("0.00"));
+
+            // This makes it so the console does not close without user permission
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
     }
 }
